@@ -1,6 +1,3 @@
-# 4-sep-23-adipratamajaya
-4-sep-23-adipratamajaya created by GitHub Classroom
-
 # 👋 Adi pratama jaya 🤓
 
 Hi, I'm Adi Pratama Jaya, I'm currently learning about web development 🤯 Nice to meet you 🥳
