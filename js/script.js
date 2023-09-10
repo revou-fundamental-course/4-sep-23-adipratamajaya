@@ -20,7 +20,7 @@ function hitungLuas (){
 hasil = document.querySelector("#hasil_").innerHTML ="<p>Hasil</p>"+ "<h2>" +luas+ "</h2>";
 }
 
-function resetLuas() {
+function resetPersegiLuas() {
     let reset = document.querySelector("#hasil_").innerHTML ="<h1>😱</h1>";
 }
 
@@ -33,6 +33,39 @@ operator = 4 * keliling;
 
 let hasil = document.querySelector("#hasil__").innerHTML = "<p>Hasil</p>"+ "<h2>" +operator+ "</h2>";
 }
-function resetKeliling() {
+function resetPersegiKeliling() {
     let reset = document.querySelector("#hasil__").innerHTML ="<h1>😱</h1>";
+}
+
+// Jang persegi panjangna 
+
+// luasna
+function ppLuas (){
+
+const hasil  = document.querySelector(".hasil_panjang");
+const pL_panjang = document.querySelector("#pL_panjang").value;
+const lp_panjang = document.querySelector("#lp_panjang").value;
+let  operator ;
+
+operator = pL_panjang * lp_panjang;
+
+hasil.innerHTML = "<p>Hasil</p>"+ "<h2>" +operator+ "</h2>";
+}
+
+function resetLuas() {
+    const hasil  = document.querySelector(".hasil_panjang").innerHTML ="<h1>🤤</h1>";
+}
+
+// keliling
+function pp_keliling (){
+    const hasil = document.querySelector(".box_keliling")
+    const pL_panjang = document.querySelector("#pp_keliling").value; 
+    const pp_lebar = document.querySelector("#pp_lebar").value;
+    let operator;
+
+    operator = 2 * (pL_panjang * pp_lebar);
+    hasil.innerHTML = "<p>Hasil</p>"+ "<h2>" +operator+ "</h2>";
+}
+function resetKeliling() {
+    const hasil = document.querySelector(".box_keliling").innerHTML ="<h1>🤤</h1>";
 }

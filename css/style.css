@@ -39,6 +39,10 @@ header h1 strong {
     font-size: 1rem;
     font-weight: 300;
 }
+header a {
+    text-decoration: none;
+    color: #EEEEEE;
+}
 header p {
     font-size: 1rem;
     font-family: Roboto;
@@ -104,8 +108,7 @@ header p:active {
     gap: 15px;
 }
 .formula_ a button {
-    width: 300px;
-    border-radius: 25px;
+    width: 443px;
     transition: 0.3s ease-in-out;
 }
 button {
