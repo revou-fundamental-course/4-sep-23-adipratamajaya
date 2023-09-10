@@ -1,0 +1,102 @@
+.formula_persegi {
+}
+/* ============== */
+.formula_ppersegi{
+
+}
+
+/* item others */
+.formula__{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+    color: aliceblue;
+}
+/* ======= */
+
+/* box */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 2px solid #EEEEEE;
+}
+/* btn hasil */
+.btn_hasil {
+    width: 80px;
+    height: 30px;
+    border-radius: 0;
+}
+/* froms */
+fieldset {
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: row;
+}
+fieldset input {
+    width: 100px;
+    height: 30px;
+}
+/* ========== */
+.luas {
+    padding: 20px;
+    background-color: #000000f1;
+    width: 45%;
+    height: auto;
+    font-family: Roboto;
+}
+.Notice_ {
+    width: 25%;
+    background-color: #000000f1;
+    padding: 20px;
+}
+.keliling {
+    padding: 20px;
+    background-color: #000000f1;
+    width: 45%;
+    height: auto;
+    font-family: Roboto;
+}
+/* ============ */
+
+/* bar persegi */
+.bar_persegi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    flex-direction: row;
+    background-color: #000000f1;
+}
+.bar_persegi a {
+    padding: 20px 0;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-family: Roboto;
+}
+.bar_persegi a:hover {
+    color: #00ADB5;
+}
+.bar_persegi a:active {
+    color: red;
+}
+/* manipulasi */
+#persegiPanjang_ {
+    display: none;
+}
+#persegi-.none {
+    display: none;
+}
+
+#persegiPanjang_.show {
+    display: block;
+}

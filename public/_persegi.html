@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Kalulator Matematik</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- animasi cdn -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <!-- animasi cdn -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
 </head>
 <body>
     <header>
@@ -20,24 +20,75 @@
     </header>
 
     <main>
-        <section id="main_content" class="animate__animated animate__fadeInDown">
-            <div class="card">
-                <div class="text_main">
-                    <h2>Welcome To <span id="change_txt">katik</span> 🤓</h2>
-                    <p>Sebuah Web Apps Sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar.</p>
+        <div class="bar_persegi">
+            <a class="change_action">
+                <p>Ganti Rumus?</p>
+                <p class="ganti_nama">Persegi panjang</p>
+            </a>
+        </div>
+        <section id="persegi-" class="formula_persegi">
+            <div class="formula__">
+                <div class="luas">
+                    <h2>Hitung Luas persegi</h2>
+                    <br>
+                    <div class="box"></div>
+                    <br>
+                    <p>Rumus Luas persegi Yaitu :</p>
+                    <p>L = S x S</p>
+                    <br>
+                    <fieldset>
+                        <legend>Masukan Nilanya</legend>
+                        <input type="number">
+                        <button class="btn_hasil" type="submit">Hitung</button>
+                </fieldset>
                 </div>
-                <div class="point_change">
-                    <h2>Pilih rumus yang akan di gunakan 👇</h2>
+                <div class="keliling">
+                    <h2>Hitung Keliling persegi</h2>
+                    <br>
+                    <div class="box">
+                    </div>
+                    <br>
+                    <p>Rumus Luas persegi Yaitu :</p>
+                    <p>K = 4 x S</p>
+                    <br>
+                    <fieldset>
+                        <legend>Masukan Nilanya</legend>
+                        <input type="number">
+                        <button class="btn_hasil" type="submit">Hitung</button>
+                </fieldset>
                 </div>
-                <div class="formula_">
-                    <a href="public/_persegi.html">
-                        <button type="button">Luas & Keliling Persegi</button>
-                    </a>
-                    <a href="public/_ppersegi.html">
-                        <button type="button">Luas & Keliling P. Panjang</button>
-                    </a>
+        </section>
+        <section id="persegiPanjang_" class="formula_persegi">
+            <div class="formula__">
+                <div class="luas">
+                    <h2>Hitung Luas persegi panjang</h2>
+                    <br>
+                    <div class="box"></div>
+                    <br>
+                    <p>Rumus Luas persegi Yaitu :</p>
+                    <p>L = S x S</p>
+                    <br>
+                    <fieldset>
+                        <legend>Masukan Nilanya</legend>
+                        <input type="number">
+                        <button class="btn_hasil" type="submit">Hitung</button>
+                </fieldset>
                 </div>
-            </div>
+                <div class="keliling">
+                    <h2>Hitung Keliling persegi panjang</h2>
+                    <br>
+                    <div class="box">
+                    </div>
+                    <br>
+                    <p>Rumus Luas persegi Yaitu :</p>
+                    <p>K = 4 x S</p>
+                    <br>
+                    <fieldset>
+                        <legend>Masukan Nilanya</legend>
+                        <input type="number">
+                        <button class="btn_hasil" type="submit">Hitung</button>
+                </fieldset>
+                </div>
         </section>
     </main>
     <footer>
@@ -50,7 +101,5 @@
         </a>
     </footer>
 </body>
-<script src="js/changeTXT.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="/js/script.js"></script>
 </html>
-<!-- 09/09/2023 -->
