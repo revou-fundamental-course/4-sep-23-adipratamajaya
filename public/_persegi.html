@@ -21,75 +21,82 @@
 
     <main>
         <div class="bar_persegi">
-            <a class="change_action">
-                <p>Ganti Rumus?</p>
-                <p class="ganti_nama">Persegi panjang</p>
+            <h2>Klik Tombol Untuk Menganti Rumus!</h2>
+            <a class="change_ppersegi">
+                <button>Ganti rumus</button>
             </a>
         </div>
-        <section id="persegi-" class="formula_persegi">
-            <div class="formula__">
-                <div class="luas">
-                    <h2>Hitung Luas persegi</h2>
-                    <br>
-                    <div class="box"></div>
-                    <br>
-                    <p>Rumus Luas persegi Yaitu :</p>
-                    <p>L = S x S</p>
-                    <br>
-                    <fieldset>
-                        <legend>Masukan Nilanya</legend>
-                        <input type="number">
-                        <button class="btn_hasil" type="submit">Hitung</button>
-                </fieldset>
-                </div>
-                <div class="keliling">
-                    <h2>Hitung Keliling persegi</h2>
-                    <br>
-                    <div class="box">
+        <div class="display_">
+            <section id="persegi-" class="formula_persegi animate__animated animate__fadeIn">
+                <div class="formula__">
+                    <div class="luas">
+                        <h2>Hitung Luas persegi</h2>
+                        <br>
+                        <div class="box">
+                            <div id="hasil_"></div>
+                        </div>
+                        <br>
+                        <p>Rumus Luas persegi Yaitu :</p>
+                        <p>L = S x S</p>
+                        <br>
+                        <fieldset>
+                            <legend>Masukan Nilanya</legend>
+                            <input type="number" id="sisi" placeholder="Dipencet">
+                            <button class="btn_hasil" type="submit" onclick="hitungLuas()">Hitung</button>
+                            <button class="btn_hasil reset_btn" type="submit" onclick="resetLuas()">Reset</button>
+                    </fieldset>
                     </div>
-                    <br>
-                    <p>Rumus Luas persegi Yaitu :</p>
-                    <p>K = 4 x S</p>
-                    <br>
-                    <fieldset>
-                        <legend>Masukan Nilanya</legend>
-                        <input type="number">
-                        <button class="btn_hasil" type="submit">Hitung</button>
-                </fieldset>
-                </div>
-        </section>
-        <section id="persegiPanjang_" class="formula_persegi">
-            <div class="formula__">
-                <div class="luas">
-                    <h2>Hitung Luas persegi panjang</h2>
-                    <br>
-                    <div class="box"></div>
-                    <br>
-                    <p>Rumus Luas persegi Yaitu :</p>
-                    <p>L = S x S</p>
-                    <br>
-                    <fieldset>
-                        <legend>Masukan Nilanya</legend>
-                        <input type="number">
-                        <button class="btn_hasil" type="submit">Hitung</button>
-                </fieldset>
-                </div>
-                <div class="keliling">
-                    <h2>Hitung Keliling persegi panjang</h2>
-                    <br>
-                    <div class="box">
+                    <div class="keliling">
+                        <h2>Hitung Keliling persegi</h2>
+                        <br>
+                        <div class="box">
+                            <div id="hasil__"></div>
+                        </div>
+                        <br>
+                        <p>Rumus Luas persegi Yaitu :</p>
+                        <p>K = 4 x S</p>
+                        <br>
+                        <fieldset>
+                            <legend>Masukan Nilanya</legend>
+                            <input type="number" id="keliling" placeholder="Dipencet">
+                            <button class="btn_hasil" type="submit" onclick="kelilingPersegi()">Hitung</button>
+                            <button class="btn_hasil reset_btn" type="submit" onclick="resetKeliling()">Reset</button>
+                    </fieldset>
                     </div>
-                    <br>
-                    <p>Rumus Luas persegi Yaitu :</p>
-                    <p>K = 4 x S</p>
-                    <br>
-                    <fieldset>
-                        <legend>Masukan Nilanya</legend>
-                        <input type="number">
-                        <button class="btn_hasil" type="submit">Hitung</button>
-                </fieldset>
-                </div>
-        </section>
+            </section>
+            <section id="persegiPanjang_" class="formula_persegi animate__animated animate__fadeIn">
+                <div class="formula__">
+                    <div class="luas">
+                        <h2>Hitung Luas persegi panjang</h2>
+                        <br>
+                        <div class="box_p"></div>
+                        <br>
+                        <p>Rumus Luas persegi Yaitu :</p>
+                        <p>L = S x S</p>
+                        <br>
+                        <fieldset>
+                            <legend>Masukan Nilanya</legend>
+                            <input type="number">
+                            <button class="btn_hasil" type="submit">Hitung</button>
+                    </fieldset>
+                    </div>
+                    <div class="keliling">
+                        <h2>Hitung Keliling persegi panjang</h2>
+                        <br>
+                        <div class="box_p">
+                        </div>
+                        <br>
+                        <p>Rumus Luas persegi Yaitu :</p>
+                        <p>K = 4 x S</p>
+                        <br>
+                        <fieldset>
+                            <legend>Masukan Nilanya</legend>
+                            <input type="number">
+                            <button class="btn_hasil" type="submit">Hitung</button>
+                    </fieldset>
+                    </div>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy;  Copyright : <strong>Adi pratama jaya</strong></p>
